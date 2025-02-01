@@ -1,0 +1,6 @@
+This directory is the main directory for all analyses. There are several subdirectories:
+
+- ATAC: all ATAC-seq analyses
+- RNA: all RNA-seq analyses
+- human_genome: information for the human genome (hg38)
+- paper_figures: figures for the manuscript

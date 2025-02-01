@@ -1,0 +1,21 @@
+# Commands to generate the processed data:
+
+# Step 0: Download data
+
+I manually generated the description of each of the datasets in 00_fetal_multiome_metadata.txt using the link provided in https://www.encodeproject.org/search/?type=MultiomicsSeries&lab.title=Michael+Snyder%2C+Stanford&related_datasets.replicates.library.biosample.life_stage=embryonic&biosample_ontology.term_name=heart
+
+Then, use the 00_download_tarballs.sh  to download the count matrix tarballs using wget
+
+# Step 1: Reformat the data to extract the count matrices
+
+# unpack the tarballs
+$ bash 01A_unpack_tarballs.sh
+
+# gzip the extracted files
+$ bash 01B_gunzip_files.sh
+
+# Step 2: Generate the combined and processed adata from these unfiltered matrices interactively
+- Run 02_generate_combined_adata.ipynb
+
+# Step 3: For the combined adata, perform cell type annotation
+- Use the interactive jupyter notebook 03_annotate_adata.ipynb 
