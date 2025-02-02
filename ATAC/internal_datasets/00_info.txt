@@ -1,0 +1,17 @@
+# The directories were transferred from methylome2 with the fastq files within their own directories. 
+
+# Initially, when downloading from Peng's methylome2 raw data, they were in the following directories based on each run. Some samples were rerun, so there is a suffix such as -1 or -2 added to some directories
+
+# 00_directories.txt is a list of the directories that are present
+
+# STEP 0: Run cellranger-arc 
+# First, for each of the directories with fastq files, run the cellranger-atac pipeline. This will take quite a while (1-2 days to preprocess all samples since this is done serially)
+nohup bash 00_send_cellranger_atac.sh &
+
+# STEP 1-2: Examine the metadata for each donor, and merge together. Copy over the fragment files together
+
+# STEP 3: Run cellsnplite on the Fetal samples to confirm their identities. The script below will send the script run_cellsnplite_pseudobulked.sh for each of the FASTQ directories.
+$ bash 03_send_cellsnplite.sh -d .
+
+# STEP 4: Verify the sex of all of the donors (mainly for the fetal samples where this was not known beforehand)
+- 04_verify_sex_BAM.ipynb
