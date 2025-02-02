@@ -1,0 +1,13 @@
+# Preprocessing
+
+# The directories here include scripts/ for the non-interactive scripts, combined_analysis/ for the jupyter notebooks containing the scripts for downstream analysis after combining all of the count matrices together. After step 3, the raw_data/ directory
+# with the outputted fastq and STARSolo alignments are aggregated together
+
+# 1. The fastq files are generated using bclfastq2 on the Dropseq data. 01_metadata.txt specifies the donor information for each of these libraries
+# 2. Place all of the fastq files in the same directory and then run 00_create_directories.sh, which will create one directory for each fastq pair
+# $ bash 00_create_directories.sh -d <directory with FASTQ>
+# 3. With these fastq files in their respective directories, 01_run_STARSolo_parallel.sh will run STARSolo in a parallel fashion on the Dropseq 
+# data, resulting in BAM files and count matrices. Move these into the raw_data/ directory
+# 4. Index the bam files and gzip the count matrix directories using 02_index_bam_files.sh  and 03_gzip_STAR_files.sh
+# 5. Run SoupX in a parallel fashion (5 at a time): nohup bash scripts/send_SoupX.sh -d raw_data/ -s GeneFull -p 5 &
+# 6. Combine the SoupX corrected count matrices in .RDS file into a format that can be loaded as an adata in scanpy

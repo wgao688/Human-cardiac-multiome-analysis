@@ -1,0 +1,11 @@
+# Step 0: Download the gene sets from here:
+# To specifically download the GO_BP set:
+wget https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2023.2.Hs/c5.go.bp.v2023.2.Hs.symbols.gmt 
+
+# Step 1: After this, remove redundant sets by computing the Jaccard distance using this script
+Rscript Step_01_remove_non_redundant_gene_sets.R
+
+# Step 2: Actually filter based on a dissimilarity value and write a filtered set using this interactive script
+02_examine_gene_set_hierarchical_clusters.ipynb
+
+This will produce a file called: filtered_GO_Hs_symbols.gmt with the filtered gene sets
