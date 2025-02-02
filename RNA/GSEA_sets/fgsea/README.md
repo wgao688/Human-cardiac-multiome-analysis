@@ -1,4 +1,4 @@
-### Reducing redundant gene sets via Jaccard similarity
+## Reducing redundant gene sets via Jaccard similarity
 
 This directory goes over how reduce the redundancy of gene sets by clustering based on Jaccard similarity.
 
@@ -14,7 +14,7 @@ wget https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2023.2.Hs/c5.go.
 $ nohup Rscript 01_remove_non_redundant_gene_sets.R &
 ```
 
-# STEP 2: Actually filter based on a dissimilarity value and write a filtered set using this interactive script. We chose a dissimilarity threshold of 0.7. 
+### STEP 2: Actually filter based on a dissimilarity value and write a filtered set using this interactive script. We chose a dissimilarity threshold of 0.7. 
 ```
 - 02_examine_gene_set_hierarchical_clusters.ipynb
 ```
