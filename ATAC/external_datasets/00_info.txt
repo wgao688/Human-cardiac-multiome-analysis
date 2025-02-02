@@ -1,9 +1,0 @@
-# This directory stores all of the fragment files for the each of the datasets, and their indices
- 
-# 1. The ENCODE fragments files were downloaded from the ENCODE v4 portal
-# 2. The Kanemaru fragment files were downloaded from the online portal, under ATAC fragments: https://www.heartcellatlas.org/. Only keep the LV samples.
-# 3. The Kuppe fragment files were downloaded from the Zenodo archive listed in the "Data Availability" section: https://zenodo.org/records/6578047
-# 4. The Ameen datasets were downloaded from GEO accession GSE181346
-# 5. The Penn fragment files were generated in ../internal_datasets using the raw FASTQ files
-
-### All preprocessing will be performed togehter in ../aggregated_analysis/
