@@ -1,0 +1,300 @@
+,age,donor_id,sex,study,technology,age_status,age_group,disease,tech_plus_study,disease_binary
+0,18.0,Penn:Penn_F1,female,Penn,Dropseq,fetal,fetal,ND,Dropseq_Penn,N
+1,18.0,Penn:Penn_F2,male,Penn,Dropseq,fetal,fetal,ND,Dropseq_Penn,N
+2,13.0,ENCODE v4 (Snyder):ENCFF802AQC,male,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+3,15.0,ENCODE v4 (Snyder):ENCFF248EWR,male,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+4,16.0,ENCODE v4 (Snyder):ENCFF849ALE,female,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+5,15.0,ENCODE v4 (Snyder):ENCFF775ANN,female,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+6,18.0,ENCODE v4 (Snyder):ENCFF805YRY,female,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+7,17.0,ENCODE v4 (Snyder):ENCFF727JRO,female,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+8,12.0,ENCODE v4 (Snyder):ENCFF776DQR,female,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+9,10.0,ENCODE v4 (Snyder):ENCFF684YRB,female,ENCODE v4 (Snyder),Multiome-v1,fetal,fetal,ND,Multiome-v1_ENCODE v4 (Snyder),N
+10,19.0,Sim 2021:GSM4742858_Fetal2_processed,male,Sim 2021,3prime-v1,fetal,fetal,ND,3prime-v1_Sim 2021,N
+11,20.0,Sim 2021:GSM4742859_Fetal3_processed,female,Sim 2021,3prime-v1,fetal,fetal,ND,3prime-v1_Sim 2021,N
+12,19.0,Sim 2021:GSM4742857_Fetal1_processed,male,Sim 2021,3prime-v1,fetal,fetal,ND,3prime-v1_Sim 2021,N
+13,64.0,Penn:K1617,male,Penn,Dropseq,postnatal,old,DCM,Dropseq_Penn,Y
+14,62.0,Penn:K1430,male,Penn,Dropseq,postnatal,old,DCM,Dropseq_Penn,Y
+15,54.0,Chaffin 2022:P1422,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+16,51.0,Chaffin 2022:P1722,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+17,51.0,Chaffin 2022:P1462,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+18,46.0,Chaffin 2022:P1602,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+19,62.0,Chaffin 2022:P1430,male,Chaffin 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Chaffin 2022,Y
+20,49.0,Chaffin 2022:P1630,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+21,63.0,Chaffin 2022:P1447,female,Chaffin 2022,3prime-v3,postnatal,old,HCM,3prime-v3_Chaffin 2022,Y
+22,58.0,Chaffin 2022:P1510,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+23,54.0,Chaffin 2022:P1371,male,Chaffin 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Chaffin 2022,Y
+24,29.0,Chaffin 2022:P1479,male,Chaffin 2022,3prime-v3,postnatal,young,HCM,3prime-v3_Chaffin 2022,Y
+25,45.0,Chaffin 2022:P1300,female,Chaffin 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Chaffin 2022,Y
+26,64.0,Chaffin 2022:P1617,male,Chaffin 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Chaffin 2022,Y
+27,65.0,Chaffin 2022:P1290,male,Chaffin 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Chaffin 2022,Y
+28,63.0,Chaffin 2022:P1437,female,Chaffin 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Chaffin 2022,Y
+29,54.0,Chaffin 2022:P1685,female,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+30,42.0,Chaffin 2022:P1358,male,Chaffin 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Chaffin 2022,Y
+31,61.0,Chaffin 2022:P1735,male,Chaffin 2022,3prime-v3,postnatal,old,HCM,3prime-v3_Chaffin 2022,Y
+32,63.0,Chaffin 2022:P1304,female,Chaffin 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Chaffin 2022,Y
+33,29.0,Chaffin 2022:P1707,female,Chaffin 2022,3prime-v3,postnatal,young,HCM,3prime-v3_Chaffin 2022,Y
+34,40.0,Chaffin 2022:P1425,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+35,60.0,Chaffin 2022:P1508,female,Chaffin 2022,3prime-v3,postnatal,old,HCM,3prime-v3_Chaffin 2022,Y
+36,46.0,Chaffin 2022:P1631,male,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+37,46.0,Chaffin 2022:P1726,female,Chaffin 2022,3prime-v3,postnatal,middle,HCM,3prime-v3_Chaffin 2022,Y
+38,49.0,Chaffin 2022:P1504,male,Chaffin 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Chaffin 2022,Y
+39,41.0,Chaffin 2022:P1472,male,Chaffin 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Chaffin 2022,Y
+40,56.0,Chaffin 2022:P1606,female,Chaffin 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Chaffin 2022,Y
+41,55.0,Simonson 2023:P1364,female,Simonson 2023,3prime-v3,postnatal,middle,ICM,3prime-v3_Simonson 2023,Y
+42,47.0,Simonson 2023:P1579,female,Simonson 2023,3prime-v3,postnatal,middle,ICM,3prime-v3_Simonson 2023,Y
+43,64.0,Simonson 2023:P1693,male,Simonson 2023,3prime-v3,postnatal,old,ICM,3prime-v3_Simonson 2023,Y
+44,55.0,Simonson 2023:P1703,male,Simonson 2023,3prime-v3,postnatal,middle,ICM,3prime-v3_Simonson 2023,Y
+45,64.0,Simonson 2023:P1733,female,Simonson 2023,3prime-v3,postnatal,old,ICM,3prime-v3_Simonson 2023,Y
+46,59.0,Simonson 2023:P1773,male,Simonson 2023,3prime-v3,postnatal,middle,ICM,3prime-v3_Simonson 2023,Y
+47,62.0,Simonson 2023:P1800,female,Simonson 2023,3prime-v3,postnatal,old,ICM,3prime-v3_Simonson 2023,Y
+48,58.0,Koenig 2022:H_ZC-LVAD,male,Koenig 2022,5prime-v1,postnatal,middle,DCM,5prime-v1_Koenig 2022,Y
+49,53.0,Koenig 2022:TWCM-10-5,female,Koenig 2022,5prime-v1,postnatal,middle,DCM,5prime-v1_Koenig 2022,Y
+50,9.0,Koenig 2022:TWCM-11-93,male,Koenig 2022,5prime-v1,postnatal,young,DCM,5prime-v1_Koenig 2022,Y
+51,60.0,Koenig 2022:TWCM-13-17,female,Koenig 2022,5prime-v1,postnatal,old,DCM,5prime-v1_Koenig 2022,Y
+52,40.0,Koenig 2022:TWCM-13-47,male,Koenig 2022,5prime-v1,postnatal,middle,DCM,5prime-v1_Koenig 2022,Y
+53,56.0,Koenig 2022:TWCM-13-84,male,Koenig 2022,5prime-v1,postnatal,middle,DCM,5prime-v1_Koenig 2022,Y
+54,41.0,Koenig 2022:TWCM-13-102,male,Koenig 2022,5prime-v1,postnatal,middle,DCM,5prime-v1_Koenig 2022,Y
+55,8.0,Koenig 2022:TWCM-13-181,female,Koenig 2022,5prime-v1,postnatal,young,DCM,5prime-v1_Koenig 2022,Y
+56,51.0,Koenig 2022:TWCM-13-208,male,Koenig 2022,5prime-v1,postnatal,middle,DCM,5prime-v1_Koenig 2022,Y
+57,32.0,Koenig 2022:TWCM-13-285,female,Koenig 2022,5prime-v1,postnatal,young,DCM,5prime-v1_Koenig 2022,Y
+58,64.0,Koenig 2022:TWCM-LVAD2,female,Koenig 2022,5prime-v1,postnatal,old,DCM,5prime-v1_Koenig 2022,Y
+59,61.0,Koenig 2022:TWCM-LVAD3,male,Koenig 2022,5prime-v1,postnatal,old,DCM,5prime-v1_Koenig 2022,Y
+60,57.0,Kuppe 2022:P3,male,Kuppe 2022,3prime-v3,postnatal,middle,AMI,3prime-v3_Kuppe 2022,Y
+61,74.0,Kuppe 2022:P4,male,Kuppe 2022,3prime-v3,postnatal,old,ICM,3prime-v3_Kuppe 2022,Y
+62,44.0,Kuppe 2022:P2,male,Kuppe 2022,3prime-v3,postnatal,middle,AMI,3prime-v3_Kuppe 2022,Y
+63,47.0,Kuppe 2022:P6,male,Kuppe 2022,3prime-v3,postnatal,middle,AMI,3prime-v3_Kuppe 2022,Y
+64,52.0,Kuppe 2022:P9,female,Kuppe 2022,3prime-v3,postnatal,middle,AMI,3prime-v3_Kuppe 2022,Y
+65,38.0,Kuppe 2022:P10,male,Kuppe 2022,3prime-v3,postnatal,young,AMI,3prime-v3_Kuppe 2022,Y
+66,60.0,Kuppe 2022:P11,female,Kuppe 2022,3prime-v3,postnatal,old,ICM,3prime-v3_Kuppe 2022,Y
+67,40.0,Kuppe 2022:P12,male,Kuppe 2022,3prime-v3,postnatal,middle,ICM,3prime-v3_Kuppe 2022,Y
+68,51.0,Kuppe 2022:P13,male,Kuppe 2022,3prime-v3,postnatal,middle,ICM,3prime-v3_Kuppe 2022,Y
+69,59.0,Kuppe 2022:P14,male,Kuppe 2022,3prime-v3,postnatal,middle,ICM,3prime-v3_Kuppe 2022,Y
+70,64.0,Kuppe 2022:P18,female,Kuppe 2022,3prime-v3,postnatal,old,ICM,3prime-v3_Kuppe 2022,Y
+71,58.0,Kuppe 2022:P19,male,Kuppe 2022,3prime-v3,postnatal,middle,ICM,3prime-v3_Kuppe 2022,Y
+72,66.0,Kuppe 2022:P16,male,Kuppe 2022,3prime-v3,postnatal,old,AMI,3prime-v3_Kuppe 2022,Y
+73,63.0,Kuppe 2022:P20,male,Kuppe 2022,3prime-v3,postnatal,old,ICM,3prime-v3_Kuppe 2022,Y
+74,43.0,Kuppe 2022:P15,female,Kuppe 2022,3prime-v3,postnatal,middle,AMI,3prime-v3_Kuppe 2022,Y
+75,74.5,Reichart 2022:ReichartDT4,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+76,54.5,Reichart 2022:ReichartDP2,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+77,84.5,Reichart 2022:ReichartDO1,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+78,84.5,Reichart 2022:ReichartDL2,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+79,64.5,Reichart 2022:ReichartDS3,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+80,84.5,Reichart 2022:ReichartDL3,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+81,54.5,Reichart 2022:ReichartDP1,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+82,44.5,Reichart 2022:ReichartH33,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+83,54.5,Reichart 2022:ReichartH11,male,Reichart 2022,3prime-v3,postnatal,middle,ARVC,3prime-v3_Reichart 2022,Y
+84,54.5,Reichart 2022:ReichartH26,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+85,74.5,Reichart 2022:ReichartH40,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+86,74.5,Reichart 2022:ReichartH09,male,Reichart 2022,3prime-v3,postnatal,old,ARVC,3prime-v3_Reichart 2022,Y
+87,54.5,Reichart 2022:ReichartH29,female,Reichart 2022,3prime-v3,postnatal,middle,ARVC,3prime-v3_Reichart 2022,Y
+88,44.5,Reichart 2022:ReichartH06,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+89,54.5,Reichart 2022:ReichartH36,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+90,64.5,Reichart 2022:ReichartH37,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+91,54.5,Reichart 2022:ReichartH14,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+92,14.5,Reichart 2022:ReichartH84,female,Reichart 2022,3prime-v3,postnatal,young,NCCM,3prime-v3_Reichart 2022,Y
+93,24.5,Reichart 2022:ReichartH18,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+94,44.5,Reichart 2022:ReichartH34,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+95,54.5,Reichart 2022:ReichartH13,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+96,64.5,Reichart 2022:ReichartH42,male,Reichart 2022,3prime-v3,postnatal,old,ARVC,3prime-v3_Reichart 2022,Y
+97,74.5,Reichart 2022:ReichartH07,male,Reichart 2022,3prime-v3,postnatal,old,ARVC,3prime-v3_Reichart 2022,Y
+98,74.5,Reichart 2022:ReichartH10,male,Reichart 2022,3prime-v3,postnatal,old,ARVC,3prime-v3_Reichart 2022,Y
+99,74.5,Reichart 2022:ReichartH15,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+100,34.5,Reichart 2022:ReichartH22,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+101,64.5,Reichart 2022:ReichartH27,female,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+102,54.5,Reichart 2022:ReichartH04,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+103,64.5,Reichart 2022:ReichartH02,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+104,14.5,Reichart 2022:ReichartH81,female,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+105,54.5,Reichart 2022:ReichartH35,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+106,54.5,Reichart 2022:ReichartH31,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+107,64.5,Reichart 2022:ReichartH25,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+108,64.5,Reichart 2022:ReichartH44,female,Reichart 2022,3prime-v3,postnatal,old,ARVC,3prime-v3_Reichart 2022,Y
+109,64.5,Reichart 2022:ReichartH01,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+110,44.5,Reichart 2022:ReichartH58,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+111,4.5,Reichart 2022:ReichartH59,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+112,4.5,Reichart 2022:ReichartH79,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+113,64.5,Reichart 2022:ReichartH24,female,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+114,74.5,Reichart 2022:ReichartH41,female,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+115,24.5,Reichart 2022:ReichartH21,female,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+116,24.5,Reichart 2022:ReichartH17,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+117,74.5,Reichart 2022:ReichartH12,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+118,44.5,Reichart 2022:ReichartH19,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+119,44.5,Reichart 2022:ReichartH57,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+120,24.5,Reichart 2022:ReichartH16,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+121,74.5,Reichart 2022:ReichartH28,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+122,24.5,Reichart 2022:ReichartH05,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+123,54.5,Reichart 2022:ReichartH03,female,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+124,64.5,Reichart 2022:ReichartH56,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+125,14.5,Reichart 2022:ReichartH80,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+126,54.5,Reichart 2022:ReichartH20,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+127,44.5,Reichart 2022:ReichartH08,female,Reichart 2022,3prime-v3,postnatal,middle,ARVC,3prime-v3_Reichart 2022,Y
+128,74.5,Reichart 2022:ReichartH32,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+129,64.5,Reichart 2022:ReichartH78,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+130,14.5,Reichart 2022:ReichartH73,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+131,74.5,Reichart 2022:ReichartH39,male,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+132,54.5,Reichart 2022:ReichartIC_H01,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+133,14.5,Reichart 2022:ReichartIC_H02,male,Reichart 2022,3prime-v3,postnatal,young,DCM,3prime-v3_Reichart 2022,Y
+134,44.5,Reichart 2022:ReichartIC_H03,male,Reichart 2022,3prime-v3,postnatal,middle,DCM,3prime-v3_Reichart 2022,Y
+135,74.5,Reichart 2022:ReichartIC_H04,female,Reichart 2022,3prime-v3,postnatal,old,DCM,3prime-v3_Reichart 2022,Y
+136,11.0,Hill 2022:P86,female,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+137,0.0,Hill 2022:P8,male,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+138,0.0,Hill 2022:P33,female,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+139,17.0,Hill 2022:P36,male,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+140,4.0,Hill 2022:P40,male,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+141,3.0,Hill 2022:P64,male,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+142,16.0,Hill 2022:P75,male,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+143,0.0,Hill 2022:P26,male,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+144,0.0,Hill 2022:P28,female,Hill 2022,3prime-v3,postnatal,young,pediatric HF,3prime-v3_Hill 2022,Y
+145,44.0,Penn:K1545,male,Penn,Dropseq,postnatal,middle,ND,Dropseq_Penn,N
+146,78.0,Penn:K1485,male,Penn,Dropseq,postnatal,old,ND,Dropseq_Penn,N
+147,22.0,Penn:K1584,male,Penn,Dropseq,postnatal,young,ND,Dropseq_Penn,N
+148,65.0,Penn:ND15755,male,Penn,Dropseq,postnatal,old,ND,Dropseq_Penn,N
+149,91.0,Penn:ND15840,female,Penn,Dropseq,postnatal,old,ND,Dropseq_Penn,N
+150,56.0,Penn:K1622,male,Penn,Dropseq,postnatal,middle,ND,Dropseq_Penn,N
+151,73.0,Penn:K1570,male,Penn,Dropseq,postnatal,old,ND,Dropseq_Penn,N
+152,59.0,Penn:K1702,male,Penn,Dropseq,postnatal,middle,ND,Dropseq_Penn,N
+153,81.0,Penn:K1488,male,Penn,Dropseq,postnatal,old,ND,Dropseq_Penn,N
+154,40.0,Penn:K1727,male,Penn,Dropseq,postnatal,middle,ND,Dropseq_Penn,N
+155,65.0,Penn:K1561,male,Penn,Dropseq,postnatal,old,ND,Dropseq_Penn,N
+156,33.0,Penn:K1718,male,Penn,Dropseq,postnatal,young,ND,Dropseq_Penn,N
+157,34.0,Penn:K1647,male,Penn,Dropseq,postnatal,young,ND,Dropseq_Penn,N
+158,49.0,Penn:K1549,male,Penn,Dropseq,postnatal,middle,ND,Dropseq_Penn,N
+159,52.0,Penn:K1739,male,Penn,Dropseq,postnatal,middle,ND,Dropseq_Penn,N
+160,44.0,ENCODE v4 (Snyder):ENCSR906MRL,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+161,30.0,ENCODE v4 (Snyder):ENCSR084XKX,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+162,57.0,ENCODE v4 (Snyder):ENCSR352DXB,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+163,64.0,ENCODE v4 (Snyder):ENCSR237HWJ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+164,51.0,ENCODE v4 (Snyder):ENCSR485GOL,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+165,59.0,ENCODE v4 (Snyder):ENCSR405YKM,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+166,51.0,ENCODE v4 (Snyder):ENCSR994VEG,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+167,66.0,ENCODE v4 (Snyder):ENCSR489URW,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+168,32.0,ENCODE v4 (Snyder):ENCSR231FNL,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+169,54.0,ENCODE v4 (Snyder):ENCSR762LML,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+170,61.0,ENCODE v4 (Snyder):ENCSR076ZLE,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+171,25.0,ENCODE v4 (Snyder):ENCSR751BHQ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+172,62.0,ENCODE v4 (Snyder):ENCSR093GXF,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+173,48.0,ENCODE v4 (Snyder):ENCSR398YBK,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+174,46.0,ENCODE v4 (Snyder):ENCSR481QQR,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+175,20.0,ENCODE v4 (Snyder):ENCSR439ZVQ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+176,30.0,ENCODE v4 (Snyder):ENCSR157FDD,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+177,41.0,ENCODE v4 (Snyder):ENCSR630LZS,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+178,58.0,ENCODE v4 (Snyder):ENCSR654MFX,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+179,62.0,ENCODE v4 (Snyder):ENCSR777RUZ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+180,68.0,ENCODE v4 (Snyder):ENCSR328GTN,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+181,68.0,ENCODE v4 (Snyder):ENCSR788SNY,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+182,43.0,ENCODE v4 (Snyder):ENCSR681GPY,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+183,61.0,ENCODE v4 (Snyder):ENCSR175TRJ,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+184,31.0,ENCODE v4 (Snyder):ENCSR814LMX,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+185,41.0,ENCODE v4 (Snyder):ENCSR727OYO,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+186,45.0,ENCODE v4 (Snyder):ENCSR349AHE,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+187,32.0,ENCODE v4 (Snyder):ENCSR455MGH,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+188,51.0,ENCODE v4 (Snyder):ENCSR919ENI,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+189,50.0,ENCODE v4 (Snyder):ENCSR067BOK,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+190,42.0,ENCODE v4 (Snyder):ENCSR763BII,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+191,54.0,ENCODE v4 (Snyder):ENCSR259VOY,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+192,21.0,ENCODE v4 (Snyder):ENCSR962JKS,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+193,68.0,ENCODE v4 (Snyder):ENCSR204RHR,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+194,68.0,ENCODE v4 (Snyder):ENCSR002SMQ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+195,25.0,ENCODE v4 (Snyder):ENCSR176WWW,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+196,41.0,ENCODE v4 (Snyder):ENCSR801DHT,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+197,68.0,ENCODE v4 (Snyder):ENCSR488UUT,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+198,69.0,ENCODE v4 (Snyder):ENCSR138JCM,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+199,59.0,ENCODE v4 (Snyder):ENCSR190TRK,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+200,47.0,ENCODE v4 (Snyder):ENCSR755CIF,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+201,67.0,ENCODE v4 (Snyder):ENCSR008CVR,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+202,65.0,ENCODE v4 (Snyder):ENCSR991LHO,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+203,39.0,ENCODE v4 (Snyder):ENCSR273JWD,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+204,63.0,ENCODE v4 (Snyder):ENCSR851JBE,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+205,55.0,ENCODE v4 (Snyder):ENCSR753YOZ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+206,37.0,ENCODE v4 (Snyder):ENCSR345CVL,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,young,ND,Multiome-v1_ENCODE v4 (Snyder),N
+207,65.0,ENCODE v4 (Snyder):ENCSR085XEW,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+208,47.0,ENCODE v4 (Snyder):ENCSR980OCK,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+209,53.0,ENCODE v4 (Snyder):ENCSR540DHJ,female,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+210,66.0,ENCODE v4 (Snyder):ENCSR012APQ,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+211,50.0,ENCODE v4 (Snyder):ENCSR056QLB,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+212,69.0,ENCODE v4 (Snyder):ENCSR203YOV,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,old,ND,Multiome-v1_ENCODE v4 (Snyder),N
+213,58.0,ENCODE v4 (Snyder):ENCSR899GYX,male,ENCODE v4 (Snyder),Multiome-v1,postnatal,middle,ND,Multiome-v1_ENCODE v4 (Snyder),N
+214,52.5,Litvinukova 2020:D1-Nuclei_3prime-v2,female,Litvinukova 2020,3prime-v2,postnatal,middle,ND,3prime-v2_Litvinukova 2020,N
+215,62.5,Litvinukova 2020:D2-Nuclei_3prime-v2,male,Litvinukova 2020,3prime-v2,postnatal,old,ND,3prime-v2_Litvinukova 2020,N
+216,57.5,Litvinukova 2020:D3-Nuclei_3prime-v2,male,Litvinukova 2020,3prime-v2,postnatal,middle,ND,3prime-v2_Litvinukova 2020,N
+217,72.5,Litvinukova 2020:D4-Nuclei_3prime-v2,female,Litvinukova 2020,3prime-v2,postnatal,old,ND,3prime-v2_Litvinukova 2020,N
+218,67.5,Litvinukova 2020:D5-Nuclei_3prime-v2,female,Litvinukova 2020,3prime-v2,postnatal,old,ND,3prime-v2_Litvinukova 2020,N
+219,67.5,Litvinukova 2020:D6-Nuclei_3prime-v2,male,Litvinukova 2020,3prime-v2,postnatal,old,ND,3prime-v2_Litvinukova 2020,N
+220,62.5,Litvinukova 2020:D7-Nuclei_3prime-v2,male,Litvinukova 2020,3prime-v2,postnatal,old,ND,3prime-v2_Litvinukova 2020,N
+221,62.5,Litvinukova 2020:D11-Nuclei_3prime-v3,female,Litvinukova 2020,3prime-v3,postnatal,old,ND,3prime-v3_Litvinukova 2020,N
+222,52.5,Litvinukova 2020:H5-Nuclei_3prime-v3,female,Litvinukova 2020,3prime-v3,postnatal,middle,ND,3prime-v3_Litvinukova 2020,N
+223,42.5,Litvinukova 2020:H6-Nuclei_3prime-v3,female,Litvinukova 2020,3prime-v3,postnatal,middle,ND,3prime-v3_Litvinukova 2020,N
+224,52.5,Litvinukova 2020:H3-Nuclei_3prime-v3,male,Litvinukova 2020,3prime-v3,postnatal,middle,ND,3prime-v3_Litvinukova 2020,N
+225,52.5,Litvinukova 2020:H2-Nuclei_3prime-v3,male,Litvinukova 2020,3prime-v3,postnatal,middle,ND,3prime-v3_Litvinukova 2020,N
+226,47.5,Litvinukova 2020:H7-Nuclei_3prime-v3,female,Litvinukova 2020,3prime-v3,postnatal,middle,ND,3prime-v3_Litvinukova 2020,N
+227,57.5,Litvinukova 2020:H4-Nuclei_3prime-v3,male,Litvinukova 2020,3prime-v3,postnatal,middle,ND,3prime-v3_Litvinukova 2020,N
+228,57.5,Kanemaru 2023:D3-Nuclei_Multiome-v1,male,Kanemaru 2023,Multiome-v1,postnatal,middle,ND,Multiome-v1_Kanemaru 2023,N
+229,62.5,Kanemaru 2023:D7-Nuclei_Multiome-v1,male,Kanemaru 2023,Multiome-v1,postnatal,old,ND,Multiome-v1_Kanemaru 2023,N
+230,47.5,Kanemaru 2023:D8-Nuclei_Multiome-v1,male,Kanemaru 2023,Multiome-v1,postnatal,middle,ND,Multiome-v1_Kanemaru 2023,N
+231,47.5,Kanemaru 2023:AH1-Nuclei_Multiome-v1,female,Kanemaru 2023,Multiome-v1,postnatal,middle,ND,Multiome-v1_Kanemaru 2023,N
+232,56.0,Chaffin 2022:P1622,male,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+233,58.0,Chaffin 2022:P1558,female,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+234,72.0,Chaffin 2022:P1540,female,Chaffin 2022,3prime-v3,postnatal,old,ND,3prime-v3_Chaffin 2022,N
+235,33.0,Chaffin 2022:P1718,male,Chaffin 2022,3prime-v3,postnatal,young,ND,3prime-v3_Chaffin 2022,N
+236,66.0,Chaffin 2022:P1516,female,Chaffin 2022,3prime-v3,postnatal,old,ND,3prime-v3_Chaffin 2022,N
+237,54.0,Chaffin 2022:P1515,female,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+238,69.0,Chaffin 2022:P1603,female,Chaffin 2022,3prime-v3,postnatal,old,ND,3prime-v3_Chaffin 2022,N
+239,46.0,Chaffin 2022:P1678,male,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+240,62.0,Chaffin 2022:P1547,female,Chaffin 2022,3prime-v3,postnatal,old,ND,3prime-v3_Chaffin 2022,N
+241,63.0,Chaffin 2022:P1610,female,Chaffin 2022,3prime-v3,postnatal,old,ND,3prime-v3_Chaffin 2022,N
+242,51.0,Chaffin 2022:P1600,female,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+243,58.0,Chaffin 2022:P1582,female,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+244,59.0,Chaffin 2022:P1702,male,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+245,65.0,Chaffin 2022:P1561,male,Chaffin 2022,3prime-v3,postnatal,old,ND,3prime-v3_Chaffin 2022,N
+246,49.0,Chaffin 2022:P1549,male,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+247,47.0,Chaffin 2022:P1539,female,Chaffin 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Chaffin 2022,N
+248,47.0,Simonson 2023:P1452,female,Simonson 2023,3prime-v3,postnatal,middle,ND,3prime-v3_Simonson 2023,N
+249,58.0,Simonson 2023:P1650,male,Simonson 2023,3prime-v3,postnatal,middle,ND,3prime-v3_Simonson 2023,N
+250,63.0,Simonson 2023:P1690,female,Simonson 2023,3prime-v3,postnatal,old,ND,3prime-v3_Simonson 2023,N
+251,64.0,Simonson 2023:P1716,female,Simonson 2023,3prime-v3,postnatal,old,ND,3prime-v3_Simonson 2023,N
+252,52.0,Simonson 2023:P1739,male,Simonson 2023,3prime-v3,postnatal,middle,ND,3prime-v3_Simonson 2023,N
+253,58.0,Simonson 2023:P1763,male,Simonson 2023,3prime-v3,postnatal,middle,ND,3prime-v3_Simonson 2023,N
+254,53.0,Simonson 2023:P1785,female,Simonson 2023,3prime-v3,postnatal,middle,ND,3prime-v3_Simonson 2023,N
+255,42.0,Simonson 2023:P1801,male,Simonson 2023,3prime-v3,postnatal,middle,ND,3prime-v3_Simonson 2023,N
+256,68.0,Koenig 2022:H_ZC-11-292,male,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+257,62.0,Koenig 2022:TWCM-10-68,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+258,60.0,Koenig 2022:TWCM-11-41,male,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+259,48.0,Koenig 2022:TWCM-11-42,female,Koenig 2022,5prime-v1,postnatal,middle,ND,5prime-v1_Koenig 2022,N
+260,65.0,Koenig 2022:TWCM-11-74,male,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+261,27.0,Koenig 2022:TWCM-11-78,male,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+262,44.0,Koenig 2022:TWCM-11-82,male,Koenig 2022,5prime-v1,postnatal,middle,ND,5prime-v1_Koenig 2022,N
+263,46.0,Koenig 2022:TWCM-11-103,male,Koenig 2022,5prime-v1,postnatal,middle,ND,5prime-v1_Koenig 2022,N
+264,75.0,Koenig 2022:TWCM-11-104,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+265,63.0,Koenig 2022:TWCM-11-192,male,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+266,39.0,Koenig 2022:TWCM-11-256,female,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+267,71.0,Koenig 2022:TWCM-11-264,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+268,61.0,Koenig 2022:TWCM-13-1,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+269,73.0,Koenig 2022:TWCM-13-36,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+270,46.0,Koenig 2022:TWCM-13-80,male,Koenig 2022,5prime-v1,postnatal,middle,ND,5prime-v1_Koenig 2022,N
+271,20.0,Koenig 2022:TWCM-13-96,female,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+272,60.0,Koenig 2022:TWCM-13-101,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+273,48.0,Koenig 2022:TWCM-13-104,female,Koenig 2022,5prime-v1,postnatal,middle,ND,5prime-v1_Koenig 2022,N
+274,48.0,Koenig 2022:TWCM-13-132,female,Koenig 2022,5prime-v1,postnatal,middle,ND,5prime-v1_Koenig 2022,N
+275,35.0,Koenig 2022:TWCM-13-152,male,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+276,66.0,Koenig 2022:TWCM-13-168,male,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+277,21.0,Koenig 2022:TWCM-13-192,male,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+278,11.0,Koenig 2022:TWCM-13-198,male,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+279,11.0,Koenig 2022:TWCM-13-235,female,Koenig 2022,5prime-v1,postnatal,young,ND,5prime-v1_Koenig 2022,N
+280,63.0,Koenig 2022:TWCM-14-173,female,Koenig 2022,5prime-v1,postnatal,old,ND,5prime-v1_Koenig 2022,N
+281,44.0,Kuppe 2022:P1,male,Kuppe 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Kuppe 2022,N
+282,55.0,Kuppe 2022:P7,female,Kuppe 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Kuppe 2022,N
+283,44.0,Kuppe 2022:P8,male,Kuppe 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Kuppe 2022,N
+284,61.0,Kuppe 2022:P17,male,Kuppe 2022,3prime-v3,postnatal,old,ND,3prime-v3_Kuppe 2022,N
+285,74.5,Reichart 2022:ReichartH53,male,Reichart 2022,3prime-v3,postnatal,old,ND,3prime-v3_Reichart 2022,N
+286,64.5,Reichart 2022:ReichartH51,male,Reichart 2022,3prime-v3,postnatal,old,ND,3prime-v3_Reichart 2022,N
+287,54.5,Reichart 2022:ReichartH67,male,Reichart 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Reichart 2022,N
+288,54.5,Reichart 2022:ReichartH49,female,Reichart 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Reichart 2022,N
+289,34.5,Reichart 2022:ReichartH46,male,Reichart 2022,3prime-v3,postnatal,young,ND,3prime-v3_Reichart 2022,N
+290,54.5,Reichart 2022:ReichartH55,male,Reichart 2022,3prime-v3,postnatal,middle,ND,3prime-v3_Reichart 2022,N
+291,9.0,Hill 2022:UK1,female,Hill 2022,3prime-v3,postnatal,young,ND,3prime-v3_Hill 2022,N
+292,3.0,Hill 2022:UK2,female,Hill 2022,3prime-v3,postnatal,young,ND,3prime-v3_Hill 2022,N
+293,42.0,Sim 2021:GSM4742855_Adult2_processed,male,Sim 2021,3prime-v1,postnatal,middle,ND,3prime-v1_Sim 2021,N
+294,14.0,Sim 2021:GSM4742862_Young3_processed,male,Sim 2021,3prime-v1,postnatal,young,ND,3prime-v1_Sim 2021,N
+295,4.0,Sim 2021:GSM4742860_Young1_processed,male,Sim 2021,3prime-v1,postnatal,young,ND,3prime-v1_Sim 2021,N
+296,42.0,Sim 2021:GSM4742856_Adult3_processed,male,Sim 2021,3prime-v1,postnatal,middle,ND,3prime-v1_Sim 2021,N
+297,35.0,Sim 2021:GSM4742854_Adult1_processed,female,Sim 2021,3prime-v1,postnatal,young,ND,3prime-v1_Sim 2021,N
+298,10.0,Sim 2021:GSM4742861_Young2_processed,female,Sim 2021,3prime-v1,postnatal,young,ND,3prime-v1_Sim 2021,N
