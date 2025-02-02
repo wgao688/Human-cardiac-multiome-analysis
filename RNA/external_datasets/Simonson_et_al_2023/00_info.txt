@@ -1,0 +1,5 @@
+# More info about the data is here, including the download link, which requires curl -k
+
+# https://singlecell.broadinstitute.org/single_cell/study/SCP1849/single-nucleus-rna-sequencing-in-ischemic-cardiomyopathy-reveals-common-transcriptional-profile-underlying-end-stage-heart-failure#/
+
+# Using single-nucleus RNA sequencing (snRNA-seq) and integrated computational analyses, Simonson et al. 2023 profiled the transcriptomes of over 99,000 human cardiac nuclei from the non-infarct region of the left ventricle of 7 ICM transplant recipients and 8 non-failing (NF) controls. 

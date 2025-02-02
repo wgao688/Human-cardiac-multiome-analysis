@@ -1,0 +1,5 @@
+#ID  Age  Sex  Assay    Technology     Publication
+P1   44   M    RNA-seq  10x-snRNA-seq  Kuppe_et_al_2022
+P17  61   M    RNA-seq  10x-snRNA-seq  Kuppe_et_al_2022
+P7   55   F    RNA-seq  10x-snRNA-seq  Kuppe_et_al_2022
+P8   44   M    RNA-seq  10x-snRNA-seq  Kuppe_et_al_2022
