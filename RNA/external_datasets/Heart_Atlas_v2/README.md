@@ -1,4 +1,4 @@
-# Steps for preprocessing the data from both Teichman papers (Litvinukova et al. 2020 and Kanemaru et al. 2023), which are available in Heart Atlas v2
+## Steps for preprocessing the data from both Teichman papers (Litvinukova et al. 2020 and Kanemaru et al. 2023), which are available in Heart Atlas v2
 
 ### STEP 0: Download the datasets
 The link is here: https://www.heartcellatlas.org to download the file `Global_raw_RNA_counts.h5ad`, which we will filter to LV only in the scripts below.
