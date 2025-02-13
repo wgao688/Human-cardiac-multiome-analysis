@@ -8,12 +8,3 @@ Downloaded from https://github.com/Boyle-Lab/Blacklist/blob/master/lists/hg38-bl
 ```
 $ wget https://raw.githubusercontent.com/mrvollger/segDupPlots/master/ucsc.hg38.gene.locations.bed
 ```
-
-### TF list
-Downloaded from here: `https://humantfs.ccbr.utoronto.ca/download/v_1.01/DatabaseExtract_v_1.01.csv`
-```
-$ wget -O human_TFs.csv https://humantfs.ccbr.utoronto.ca/download/v_1.01/DatabaseExtract_v_1.01.csv
-```
-
-### GWAS DCM 
-Downloaded from the supplemental files from Jurgens et al. 2024 and Zheng et al. 2024
