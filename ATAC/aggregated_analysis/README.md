@@ -110,7 +110,5 @@ Then, store the peaks called in bed format using `07B_get_peak_bed.ipynb`. Use C
 - `metadata_plots`: additional metadata plots for main and supplemental figures + tables
 - `pseudobulked_analysis`: identify pseudobulked differential peak accessibility for each cell type and contrast (age, sex, disease, development)
 - `bigwig_bedgraph`: directory to create bigwig and bedgraph files for visualization
-- `GWAS_intersection_analysis`: intersection between GWAS SNPs identified by recent 2024 DCM papers and snATAC-seq peaks
 - `Spurrell_intersection_analysis`: examine the degree of intersection between the peaks called in our snATAC-seq dataset and the peaks called in Spurrell et al. 2022 cardiac enhancer paper, which perform bulk H3K27ac ChIP-seq
-- `peak_gene_correlation`: Perform linkage of peaks to genes based on strength of correlation. Uses the individual nuclei rather than creating metacells.
 - `ArchR_analysis`: convert the SnapATAC2 object to a format compatible with ArchR; use ArchR for some functions such as peak-gene linkage
