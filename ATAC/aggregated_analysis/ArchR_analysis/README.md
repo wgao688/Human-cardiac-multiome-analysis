@@ -1,4 +1,4 @@
-### ArchR analysis
+## ArchR analysis
 
 We will load in the processed ATAC-seq dataset into ArchR for applications that require usage of ArchR, such as the useful genome-browser bigwig options and peak-gene correlation.
 
