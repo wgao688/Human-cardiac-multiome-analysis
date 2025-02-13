@@ -10,7 +10,7 @@ In this directory, we will explore whether diseased or aged cardiac cells displa
 ### STEP 1: Compute the gene scores at single cell type. 
 
 We will use the scanpy function to get the scores for each cell type, and then pseudobulk to obtain a mean senescence score at the cell type and donor-level, so that we can perform covariate modeling to account for batch effects. Perform this interactively with the jupyter notebook. 
-``
+```
 - 01_senescence_analysis.ipynb
 ```
 
