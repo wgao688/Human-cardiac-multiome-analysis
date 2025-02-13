@@ -23,7 +23,7 @@ This produces an output adata called `03_combined_all_snRNA.h5ad`
 $ nohup python3 04A_run_harmony_integration.py &
 ```
 
-# visualize the clusters interactively
+Visualize the clusters interactively
 ```
 - 04B_visualize_and_annotate_post_harmony.ipynb
 ```
@@ -67,19 +67,18 @@ We will use this adata for integration with snATAC-seq data, and we will also us
 
 ### STEP 7: Finalize and subsample the adata
 
-# A: make the metadata between the final RNA object consistent with the ATAC object. The final adata object is `07_final_RNA.h5ad`. The smaller object without scvi layer is `07_final_RNA_without_scvi.h5ad`
+A: make the metadata between the final RNA object consistent with the ATAC object. The final adata object is `07_final_RNA.h5ad`. The smaller object without scvi layer is `07_final_RNA_without_scvi.h5ad`
 ```
 - 07A_make_RNA_metadata_consistent.ipynb
 ```
 
-# B: Interactively subsample the entire adata proportionally according to cell type and donor id to about 100K cells. This subsampled adata will be useful for downstream analyses that do not require the entire adata.
+B: Interactively subsample the entire adata proportionally according to cell type and donor id to about 100K cells. This subsampled adata will be useful for downstream analyses that do not require the entire adata.
 ```
 - 07B_subsample_adata.ipynb
 ```
 
 ### Additional subdirectories. Please review the README.md within each of these subdirectories for more information about the analysis workflow.
 - `original_annotation_vs_revised`: Analysis of the original vs. revised annotation comparison
-- `subclustering_analysis`: reperform leiden clustering per cell type to obtain subclusters
 - `metadata_plots`: additional metadata plots for main and supplemental figures + tables
 - `pseudobulked_analysis`: identification of differentially expressed genes (DEGs) using DESeq2 and gene set enrichment analysis (GSEA)
 - `cell_cell_communication`:  For cell-cell communication using the recently developed `liana tensorcell2cell`, using the scvi batch corrected counts (`07_final_RNA.h5ad`)
