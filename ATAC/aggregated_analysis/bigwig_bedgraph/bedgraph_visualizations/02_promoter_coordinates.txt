@@ -1,0 +1,12 @@
+#gene_name	cell_type 	chr	start		end		direction
+PPARG		Adipocyte	chr3	12288070	12290070	+
+TTN		Cardiomyocyte	chr2	178806423	178808423	-
+VWF		Endothelial	chr12	6123670		6125670		-
+WT1		Epicardial	chr11	32434539 	32436539	-
+DCN		Fibroblast	chr12	91181817	91183817	-
+SKAP1		Lymphoid	chr17	48429214	48431214	-
+KIT		Mast		chr4	54739715	54741715	+
+CD163		Myeloid		chr12	7502777		7504777		-
+NRXN1		Neuronal	chr2	51031132	51033132	-
+PDGFRB		Pericyte	chr5	150154845	150156845	-
+MYH11		vSMC		chr16	15856028 	15858028	-

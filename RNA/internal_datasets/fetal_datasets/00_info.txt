@@ -1,7 +1,0 @@
-# We have the FASTQ files downloaded from methylome2 but for some of the samples it is unclear if the donor is the same or not
-
-# According to the graphic from Peng, we have samples from 5 donors: GW 8, 10, 14, 18, 18, but the labels are currently unclear
-# for some of the samples, and we do not know which age corresponds to some of the sames.
-
-# 01_fetal_metadata.csv contains the metadata based on the current name of the FASTQ files generated from Peng
-# We will need to perform SNP calling to determine which donors are which
