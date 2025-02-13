@@ -55,6 +55,7 @@ Also filtered out cells belonging to unclear "Mixed" clusters. This takes about 
 ```
 nohup python3 05A_clean_up_peak_adata.py &
 ```
+
 ### 5B:
 Then subset to the individual cell types and perform MAGIC imputation to help confirm the cell type annotation. This will take about 30 hours. These are saved here: `pre_indiv_cell_type_adata/`
 ```
@@ -71,7 +72,8 @@ $ nohup python3 05D_reannotate_cell_types.py &
 ```
 
 ### STEP 6: Call peaks on this cleaned anndata, with a blacklist file; this can take quite a while (~15 hours)
-# Need to use the v2 blacklist (hg38-blacklist.v2.bed), not v1 (which we tried and did not get rid of all the problematic regions that have very high ATAC coverage)!
+
+Need to use the v2 blacklist (hg38-blacklist.v2.bed), not v1 (which we tried and did not get rid of all the problematic regions that have very high ATAC coverage)!
 
 #### 6A:
 ```
