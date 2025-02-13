@@ -14,7 +14,7 @@ We will use the scanpy function to get the scores for each cell type, and then p
 - 01_senescence_analysis.ipynb
 ```
 
-# STEP 2: Produce ggplots for the senescence analysis in R.
+### STEP 2: Produce ggplots for the senescence analysis in R.
 ```
 - 02_produce_senescence_analysis_plots.ipynb
 ```
