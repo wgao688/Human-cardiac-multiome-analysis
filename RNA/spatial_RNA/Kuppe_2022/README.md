@@ -4,7 +4,7 @@
 
 We ended up just using the processed data.
 
-# download from Zenodo and then transfer over to server
+Download from Zenodo and then transfer over to server
 download link: https://zenodo.org/records/6580069 
 
 --> tarballs (.tar.gz) were downloaded to computer and then transferred over with scp to `raw_data/`
