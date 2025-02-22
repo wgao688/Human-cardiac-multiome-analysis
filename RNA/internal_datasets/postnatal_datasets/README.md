@@ -1,4 +1,6 @@
-### This directory performs all preprocessing for postnatal Penn donors
+## Postnatal Penn donor processing
+
+This directory performs all preprocessing for postnatal Penn donors
 
 The directories here include `scripts/` for the non-interactive scripts, `combined_analysis/` for the jupyter notebooks containing the scripts for downstream analysis after combining all of the count matrices together. 
 
