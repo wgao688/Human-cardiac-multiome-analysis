@@ -1,4 +1,4 @@
-## Human cardiac multiome analysis
+## Single-cell multiomic integration identifies widespread, cell-type resolved fetal reactivation in the diseased human heart
 
 This repository contains the scripts used for the analysis of the human cardiac snRNA-seq, snATAC-seq, and spatial transcriptomic datasets in the manuscript titled "Single-cell multiomic integration identifies widespread, cell-type resolved fetal reactivation in the diseased human heart"). For any questions regarding these scripts, please reach out to william.gao@pennmedicine.upenn.edu. 
 
