@@ -6,7 +6,7 @@ This repository includes several subdirectories. For each subdirectory, there is
 
 To run these notebooks/scripts, there are some R/python libraries that need to be downloaded, which will be indicated in the scripts/notebooks. Because some files are too large, they are not included in this directory, but can be reproduced using the scripts, as described in the `README.md` files within each directory. These large files include .h5ad (anndata format) objects with snRNA-seq + snATAC-seq + spatial objects, and FASTQ files. 
 
-For example, for any directories that specify raw data, please download these either from the external links for datasets from other studies, or GEO for the datasets generated in this study. The new samples generated as part of this study (19 snRNA-seq donors, 11 snATAC-seq donors) are deposited as raw FASTQ files in dbGAP under the accession number GSE290367. 
+For example, for any directories that specify raw data, please download these either from the external links for datasets from other studies, or GEO for the datasets generated in this study. The new samples generated as part of this study (19 snRNA-seq donors, 11 snATAC-seq donors) are deposited as raw FASTQ files in dbGAP under the accession number *GSE290367*. 
 
 Here is the structure of this directory. The immediate subdirectories are 
 - `ATAC`: the snATAC-seq scripts
