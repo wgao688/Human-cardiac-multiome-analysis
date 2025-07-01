@@ -1,0 +1,15 @@
+### Use these marker genes for each cell type as the quick genes -- these are shown in Figure 1D
+
+Adipocyte: PPARG
+Cardiomyocyte: TTN, RYR2
+Endocardial: POSTN
+Endothelial: VWF
+Epicardial: ITLN1
+Fibroblast: DCN
+LEC: MMRN1
+Lymphoid: SKAP1
+Mast: KIT
+Myeloid: F13A1
+Neuronal: NRXN1
+Pericyte: PDGFRB
+vSMC: MYH11
