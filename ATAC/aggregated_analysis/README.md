@@ -111,4 +111,5 @@ Then, store the peaks called in bed format using `07B_get_peak_bed.ipynb`. Use C
 - `pseudobulked_analysis`: identify pseudobulked differential peak accessibility for each cell type and contrast (age, sex, disease, development)
 - `bigwig_bedgraph`: directory to create bigwig and bedgraph files for visualization
 - `Spurrell_intersection_analysis`: examine the degree of intersection between the peaks called in our snATAC-seq dataset and the peaks called in Spurrell et al. 2022 cardiac enhancer paper, which perform bulk H3K27ac ChIP-seq
-- `ArchR_analysis`: convert the SnapATAC2 object to a format compatible with ArchR; use ArchR for some functions such as peak-gene linkage
+- `SCENICplus_sex_age_analysis`: identify differentially active GRNs in sex and aging
+- `SCENICplus_disease_dev_analysis`: identify differentially active GRNs in disease and development, relative to non-diseased hearts
