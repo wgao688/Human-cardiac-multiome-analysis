@@ -1,10 +1,11 @@
 ## Perform donor pseudobulked cell-type specific analysis across 4 contrasts 
 
-4 contrasts: sex, aging, disease, and development. Perform cell-type resolved donor-pseudobulked DAR analysis. We will only do this for the cell types that have enough (>500 nuclei) representation in the fetal, ND, and diseased groups, which include: Cardiomyocyte, Endothelial, Fibroblast, Lymphoid, Myeloid, Pericyte
+4 contrasts: sex, aging, disease, and development. Perform cell-type resolved donor-pseudobulked DAR analysis. We will only do this for the cell types that have enough representation (>3 donors) in the fetal, ND, and diseased groups, which include: Cardiomyocyte, Endothelial, Fibroblast, Myeloid, Pericyte
 
 ### STEP 1: Perform pseudobulking
 ```
-- 01_ATAC_peak_pseudobulker.ipynb
+- 01A_determine_number_cells_for_pseudobulk_analysis.ipynb
+- 01B_create_pseudobulk_raw_counts.ipynb
 ```
 
 ### STEP 2: Identify DARs, using a script that calls subfunctions in `run_pydeseq2_plots.py`
