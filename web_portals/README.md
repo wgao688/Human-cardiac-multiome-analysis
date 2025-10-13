@@ -11,6 +11,4 @@ Follow the instructions [here](https://github.com/maximilianh/cellBrowser/blob/m
 
 ### STEP 3: Prepare the adata files for RNA and ATAC 
 
--- We will just use the files that were prepared in `../cellxgene/`
-
 For ATAC, we will provide the bigbed files.
