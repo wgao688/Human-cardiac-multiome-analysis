@@ -1,0 +1,16 @@
+age	donor_id	sex	study	technology	age_status	age_group	disease	tech_plus_study	disease_binary
+43	W134	female	Read_2023	sci-RNA	postnatal	middle	ND	Read_2023_sci-RNA	N
+60	W134	male	Read_2023	sci-RNA	postnatal	old	ND	Read_2023_sci-RNA	N
+43	W136	male	Read_2023	sci-RNA	postnatal	middle	ND	Read_2023_sci-RNA	N
+45	W139	male	Read_2023	sci-RNA	postnatal	middle	ND	Read_2023_sci-RNA	N	
+55	W142	female	Read_2023	sci-RNA	postnatal	middle	ND	Read_2023_sci-RNA	N
+53	W144	male	Read_2023	sci-RNA	postnatal	middle	ND	Read_2023_sci-RNA	N
+51	W145	male	Read_2023	sci-RNA	postnatal	middle	ND	Read_2023_sci-RNA	N
+25	W146	female	Read_2023	sci-RNA	postnatal	young	ND	Read_2023_sci-RNA	N
+52	P1221	female	Tucker_2020	3prime-v2	postnatal	middle	ND	Tucker_2020_3prime-v2	N
+51	P1600	female	Tucker_2020	3prime-v2	postnatal	middle	ND	Tucker_2020_3prime-v2	N
+54	P1666	male	Tucker_2020	3prime-v2	postnatal	middle	ND	Tucker_2020_3prime-v2	N
+39	P1681	male	Tucker_2020	3prime-v2	postnatal	young	ND	Tucker_2020_3prime-v2	N
+59	P1702	male	Tucker_2020	3prime-v2	postnatal	middle	ND	Tucker_2020_3prime-v2	N
+60	P1708	female	Tucker_2020	3prime-v2	postnatal	middle	ND	Tucker_2020_3prime-v2	N
+47	P723	female	Tucker_2020	3prime-v2	postnatal	middle	ND	Tucker_2020_3prime-v2	N
