@@ -3,9 +3,11 @@
 In this directory, we will run SCENIC+ analysis.
 Make sure that you have SCENIC+ installed in a separate conda environment, as it requires more specific dependencies. See here: https://scenicplus.readthedocs.io/en/latest/install.html for installation instructions.
 
-### STEP 1: Generate subsamples of the ATAC and RNA adata by cell types and age+disease status. 
+### STEP 1: Generate subsamples of the ATAC and RNA adata by sex.
 
-We will only perform analysis for cell types in which there are at least 750 cells for all age+disease statuses (fetal, ND, disease). These are the following cell types that satisfy those conditions: Cardiomyocyte, Endothelial, Fibroblast, Lymphoid, Myeloid, Pericyte
+For each cell type, randomly select cells from each donor to maximize number of donors for this analysis, while maintaining sex balance. We will keep only 5000 cell per cell type to due scalability issues. Analysis will focus on the major cell types for which we have enough cells: Cardiomyocyte, Endothelial, 
+Fibroblast, Myeloid, and Pericyte.
+
 ```
 - 01A_generate_subsampled_ATAC.ipynb
 - 01B_generate_subsampled_RNA.ipynb
@@ -39,13 +41,9 @@ Before running, we will need to custom the snakemake config file (config.yaml). 
 $ snakemake --cores 40
 ```
 
-After this step is done, we will extract the activity scores for TFs across the different states (fetal, ND, D) using these notebooks:
+After this step is done, we will extract the activity scores for TFs across sex and development using these notebooks:
 ```
 - 04A_analyze_scenicplus_outs.ipynb
 - 04B_ggplot_SCENIC_regulons.ipynb
-```
-
-### STEP 5: Examine some fetalization TFs and the TF->enhancer->gene linkages
-```
-- 05_SCENICplus_triplet_overlap_with_fetalization.ipynb
+-
 ```
