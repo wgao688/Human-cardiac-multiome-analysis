@@ -80,7 +80,8 @@ B: Interactively subsample the entire adata proportionally according to cell typ
 ### Additional subdirectories. Please review the README.md within each of these subdirectories for more information about the analysis workflow.
 - `original_annotation_vs_revised`: Analysis of the original vs. revised annotation comparison
 - `metadata_plots`: additional metadata plots for main and supplemental figures + tables
-- `pseudobulked_analysis`: identification of differentially expressed genes (DEGs) using DESeq2 and gene set enrichment analysis (GSEA)
+- `pseudobulked_DEG_analysis`: identification of differentially expressed genes (DEGs) using DESeq2 and gene set enrichment analysis (GSEA
+- `NEBULA_analysis`: identification of differentially expressed genes (DEG) using NEBULA mixed effect models
 - `cell_cell_communication`:  For cell-cell communication using the recently developed `liana tensorcell2cell`, using the scvi batch corrected counts (`07_final_RNA.h5ad`)
 - `cell_type_proportion_analysis`: Cell-type proportion analysis using `scanpro / propeller` using the raw counts in `07_final_RNA_without_scvi.h5ad`.
 - `senescence_analysis`: senescence analysis using multiple different gene sets, including SenMayo
