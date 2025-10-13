@@ -1,4 +1,4 @@
-# Perform combined analysis of fetal, ND, and D snRNA-seq LV across multiple external dataset and internal datasets
+## Perform combined analysis of fetal, ND, and D snRNA-seq LV across multiple external dataset and internal datasets
 
 ### STEP 1: Individually run the interactive scripts for the fetal, ND, and D, which will save a .h5ad file for each. This loads in the adata files from each of the individual studies. Preprocessing of each of these datasets individually has been done in `../external_datasets` and `../internal_datasets/`
 - `01A_combine_LV_ND_adata.ipynb`
