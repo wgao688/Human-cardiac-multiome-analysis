@@ -1,4 +1,5 @@
-## An integrative multiomic atlas of the human heart identifies gene regulatory network changes across cardiac development, aging, and disease
+## An integrative single-nucleus multiomic atlas of the human heart identifies gene regulatory network dynamics across cardiac development, aging, and disease
+
 
 This repository contains the scripts used for the analysis of the human cardiac snRNA-seq, snATAC-seq, and spatial transcriptomic datasets in the manuscript titled "An integrative multiomic atlas of the human heart identifies gene regulatory network changes across cardiac development, aging, and disease"). For any questions regarding these scripts, please reach out to william.gao@pennmedicine.upenn.edu. 
 
