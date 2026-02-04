@@ -9,16 +9,16 @@ A: Create the adata files that are subsetted to each cell type. These will be st
 $ nohup python3 01A_create_cell_type_specific_adata.py &
 ```
 
-: This will send `01B_run_subcluster_for_one_cell_type.py` non-interactively for each cell type. That script will subset to the specified cell-type and then perform leiden clustering at the 8 resolutions specified. Since this waits 30 minutes between each cell type (since scVI is computationally expensive, this will take around 8 hours to run). 
+B: This will send `01B_run_subcluster_for_one_cell_type.py` non-interactively for each cell type. That script will subset to the specified cell-type and then perform leiden clustering at the 8 resolutions specified. Since this waits 30 minutes between each cell type (since scVI is computationally expensive, this will take around 8 hours to run). 
 ```
 nohup bash 01B_send_subclustering.sh & 
 ```
 
-### STEP 2: Perform silhouette analysis
+### STEP 3: Perform silhouette analysis
 
 This script will iterate through each cell type, to identify the best resolution based on the maximum silhouette score.
 ```
-nohup python3 02_run_silhouette_analysis.py & 
+nohup python3 03_run_silhouette_single_cell_type.py -c "cell_type" & 
 ```
 
 ### STEP 3: Perform manual subclustering

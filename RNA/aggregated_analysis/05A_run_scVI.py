@@ -54,9 +54,9 @@ adata.layers["scvi_normalized"] = model.get_normalized_expression(
         transform_batch="Multiome-v1_ENCODE v4 (Snyder)"
     )
 
-batch_col = "donor_id"
-corrected_data = model.get_normalized_expression(transform_batch = sorted(adata.obs[batch_col].unique()),
-                                                 library_size = 1e4)
+#batch_col = "donor_id"
+#corrected_data = model.get_normalized_expression(transform_batch = sorted(adata.obs[batch_col].unique()),
+#                                                 library_size = 1e4)
 
 # use scVI latent space for computing KNN graph and UMAP generation
 print("Performing KNN and UMAP...",flush=True)

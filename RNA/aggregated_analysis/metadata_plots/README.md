@@ -15,7 +15,12 @@
 - 03_examine_annotation_concordance.ipynb
 ```
 
-### Step 4: Produce additional plots (UMAP, etc.)
+### STEP 4: Produce additional plots (UMAP, etc.)
 ```
 - 04_produce_snRNA_UMAP_doplots.ipynb
+```
+
+### STEP 5: Examine other definitions of age groups (using k-means, tertile, decade-based)
+```
+- 05_additional_metadata_summarization.ipynb
 ```

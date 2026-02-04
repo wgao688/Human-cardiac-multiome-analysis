@@ -1,4 +1,4 @@
-## Perform combined analysis of fetal, ND, and D snRNA-seq LV across multiple external dataset and internal datasets
+# Perform combined analysis of fetal, ND, and D snRNA-seq LV across multiple external dataset and internal datasets
 
 ### STEP 1: Individually run the interactive scripts for the fetal, ND, and D, which will save a .h5ad file for each. This loads in the adata files from each of the individual studies. Preprocessing of each of these datasets individually has been done in `../external_datasets` and `../internal_datasets/`
 - `01A_combine_LV_ND_adata.ipynb`
@@ -18,7 +18,9 @@ This produces a concatenated adata with all ND, D, and fetal snRNA-seq datasets 
 ```
 This produces an output adata called `03_combined_all_snRNA.h5ad`
 
-### STEP 4: Run integration with Harmony on `03_combined_all_snRNA.h5ad`; also store the result without Harmony integration. This takes about 12 hours.
+### STEP 4: Run integration with Harmony on `03_combined_all_snRNA.h5ad`.
+
+Also store the result without Harmony integration. This takes about 12 hours.
 ```
 $ nohup python3 04A_run_harmony_integration.py &
 ```
@@ -54,34 +56,25 @@ D: Manually visualize the individual cell type clusters, check marker gene expre
 ```
 Filter the cells and save in `scvi_post_subclustering/`
 
-E: Combine the refined and filtered individual cell type adata objects interactively; this will save the final RNA adata object called `05E_all_snRNA_adata.h5ad`, which includes the `scvi_normalized` layer, which stores the batch corrected counts, and a much smaller adata object called `05E_all_snRNA_adata_without_scvi.h5ad` without this layer. 
+E: Use `05E_round_1_combine_subclustered_adata.ipynb` to combine the refined and filtered individual cell type adata objects interactively; this will save the final RNA adata object called `05E_all_snRNA_adata.h5ad`, which includes the `scvi_normalized` layer, which stores the batch corrected counts, and a much smaller adata object called `05E_all_snRNA_adata_without_scvi.h5ad` without this layer. 
 
 We will use this adata for integration with snATAC-seq data, and we will also use it for all downstream RNA analysis, such as differential expression analysis, cell- type proportion analysis, and cell-cell communication.
-`- 05E_combine_subclustered_adata.ipynb`
 
-### STEP 6: Compare integration between scVI and harmony. We will first visualize the UMAP embeddings. Then we will compute the LISI integation metric from Korsunsky et al. 2019 to quantify the degree of integration in terms of study (higher is better) and cell type (lower is better), as well as runtime. 
-```
-- 06A_visualize_UMAP_embeddings.ipynb
-- 06B_LISI_and_runtime_computation.ipynb
-```
+### STEP 6: Recombine adata after subclustering analysis.
+Now, continue performing subclustering in this directory `subclustering_analysis`. 
 
-### STEP 7: Finalize and subsample the adata
-
-A: make the metadata between the final RNA object consistent with the ATAC object. The final adata object is `07_final_RNA.h5ad`. The smaller object without scvi layer is `07_final_RNA_without_scvi.h5ad`
-```
-- 07A_make_RNA_metadata_consistent.ipynb
-```
-
-B: Interactively subsample the entire adata proportionally according to cell type and donor id to about 100K cells. This subsampled adata will be useful for downstream analyses that do not require the entire adata.
-```
-- 07B_subsample_adata.ipynb
-```
+After performing all of the subclustering, combine all of the metadata back together and filter out the cells that were removed during subclustering.
+A: `06A_combine_all_metadata.ipynb` updates the metadata and regenerates an adata. 
+B: `06B_rerun_scvi.py` reruns scVI, using the additional covariates (e.g., `cm_score` for ambient RNA). This takes around 2.5 hours.
+C: Use `06C_visualize_post_scvi.ipynb` to generate the adata for UCSC Cell Browser. The output file is `06C_final_adata_for_UCSC.h5ad`.
+D: Perform gzip of the full adata using `06D_gzip_full.sh`
+E: Perform subsampling of the full adata, downsampled to 400K cells for easier visualization in UCSC using `06E_perform_subsampling.ipynb`. This will produce `06E_subsampled_UCSC_RNA_adata.h5ad`
+F: Perform gzip of the subsampled adata using `06F_gzip_subsampled.sh`. 
 
 ### Additional subdirectories. Please review the README.md within each of these subdirectories for more information about the analysis workflow.
 - `original_annotation_vs_revised`: Analysis of the original vs. revised annotation comparison
 - `metadata_plots`: additional metadata plots for main and supplemental figures + tables
-- `pseudobulked_DEG_analysis`: identification of differentially expressed genes (DEGs) using DESeq2 and gene set enrichment analysis (GSEA
-- `NEBULA_analysis`: identification of differentially expressed genes (DEG) using NEBULA mixed effect models
+- `pseudobulked_analysis`: identification of differentially expressed genes (DEGs) using DESeq2 and gene set enrichment analysis (GSEA)
 - `cell_cell_communication`:  For cell-cell communication using the recently developed `liana tensorcell2cell`, using the scvi batch corrected counts (`07_final_RNA.h5ad`)
 - `cell_type_proportion_analysis`: Cell-type proportion analysis using `scanpro / propeller` using the raw counts in `07_final_RNA_without_scvi.h5ad`.
 - `senescence_analysis`: senescence analysis using multiple different gene sets, including SenMayo
