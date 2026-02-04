@@ -13,3 +13,5 @@ Here is the structure of this directory. The immediate subdirectories are
 - `ATAC`: the snATAC-seq scripts
 - `RNA`: includes scRNA-seq analysis (`internal_datasets`, `external_datasets`, `aggregated_analysis` and spatial RNA-seq analysis is `spatial_RNA`.
 - `human_genome`: includes information related to gene features in the human genome
+
+The corresponding [web browser](https://multiomic-human-heart.cells.ucsc.edu) for this multiomic atlas is hosted by UCSC Cell Browser.
