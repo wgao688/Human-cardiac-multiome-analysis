@@ -23,4 +23,4 @@ nohup python3 03_run_silhouette_single_cell_type.py -c "cell_type" &
 
 ### STEP 3: Perform manual subclustering
 
-Now, we will use the appropriate leiden cluster resolution and marker genes / literature search to perform manual subclustering. The scripts for this are in the subdirectory `manual_subclustering/`.
+Now, we will use the appropriate leiden cluster resolution and marker genes / literature search to perform manual subclustering. The scripts for this are in the subdirectory `perform_annotation/`.
